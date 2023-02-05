@@ -1,0 +1,86 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.list-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 800px;
+    width: 400px;   
+}
+
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+.list {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 27px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+}
+
+
+
+.addContainer {
+    display: flex;
+    margin: 0 auto;
+    padding: 2px;
+    background-color: rgb(107, 109, 107);
+
+}
+
+button {
+    height: 36px;
+    border: 0;
+    background-color: rgb(7, 7, 7);
+    color: white;
+}
+
+input {
+    height: 34px;
+    font-size:14pt;
+    border: 0  ;
+    outline: none;
+    padding-left: 5px;
+}
+
+.addContainer:hover {
+    background-color:#4ea832;
+
+}
+button:hover {
+    opacity: 75%;
+    cursor: pointer;
+}
+
+.list>a {
+    margin: 5px;
+    text-align: center;
+    text-decoration:none;
+    color: black;
+    font-size: 22px;
+}
+
+.remaining {
+    margin-bottom: 10px;
+}
+
+.counter {
+    color: #4ea832;
+}
