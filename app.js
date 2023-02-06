@@ -52,3 +52,10 @@ function formHandler(e) {
 
     input.value = "";
 }
+
+document.querySelector("#addForm").addEventListener("keypress", (e) => {
+    if (e.keyCode === 13 || e.which === 13) {
+        e.preventDefault();
+        return false;
+    }
+});
